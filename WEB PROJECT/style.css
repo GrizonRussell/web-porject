@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 40;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.884), rgba(0, 0, 0, 0.884)),url(images/tiger.old.logo.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav.bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.nav.bar .title{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 600;
+    cursor: pointer;
+}
+span{
+    color:#d32423;
+}
+.nav.bar p{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+}
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 25px;
+}
+menu li a:hover{
+    color: #d32423;
+    padding: 5px 10px;
+    border: 2px solid #fff;
+}
+.home{
+    height: 400px;
+    padding: 165px;
+}
+.title-1{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 600;
+}
+.home p{
+    color: #e0791a;
+    font-size: 20px;
+    padding-top: 20px;
+}
+.home button{
+    height: 40px;
+    color: #fff;
+    background: #d32423;
+    font-size: 22px
+    padding 15px 30px;
+    margin-top: 56px;
+    border: none;
+    border-radius: 10px;
+    tansition: .9s ease;
+    cursor: pointer;
+    border-radius: 16px;
+}
+.home button:hover{
+    background: none;
+    border: 2px solid #d32423;
+}
